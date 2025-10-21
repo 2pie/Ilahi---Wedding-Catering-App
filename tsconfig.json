@@ -16,8 +16,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["App.tsx", "index.tsx", "constants.ts", "types.ts", "components", "context", "hooks", "screens"],
   "exclude": [
+    "node_modules",
+    "dist",
     "components/MainLayout.tsx",
     "screens/EventTypeScreen.tsx",
     "screens/EventDetailsScreen.tsx"
